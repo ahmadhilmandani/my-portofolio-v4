@@ -6,6 +6,6 @@
 @layer base {
   * {
     font-family: "Plus Jakarta Sans", sans-serif;
-    @apply leading-[150%] text-cust-black;
+    @apply leading-[150%];
   }
 }
