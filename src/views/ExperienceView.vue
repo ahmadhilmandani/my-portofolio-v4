@@ -1,15 +1,13 @@
 <template>
-  <div class="w-full min-h-screen bg-cust-black pt-14 pb-12 px-16 relative text-cust-white">
+  <div class="w-full min-h-screen  pt-14 pb-12 px-16 relative text-cust-white">
     <img :src="BlueDark" alt="" class="fixed top-0 left-0 z-[1]">
-    
 
     <main class="mt-20">
       <h1 class="text-cust-white font-bold text-4xl relative z-[2]">
         Experiences & Achievment
       </h1>
       <p class="text-white text-xl mt-4 w-[80%] leading-relaxed mb-28">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae accusantium id molestiae molestias sint inventore,
-        odio debitis veniam adipisci cumque quod, eaque similique porro eum, animi iure. Consequatur, minima sed.
+        Here's you could see the diverse projects I've successfully completed and the milestones I've reached in my career. From innovative web development to impactful software solutions, this section showcases my journey and growth.
       </p>
 
 
@@ -18,9 +16,9 @@
           {{ valueOfExperienceData.year }} <br>
           {{ valueOfExperienceData.months }}
         </div>
-        <div class="w-[500px]">
+        <div class="w-[560px]">
           <h2 class="font-bold">{{ valueOfExperienceData.title }}</h2>
-          <p class="text-sm mt-3 leading-relaxed">
+          <p class="text-sm mt-3 leading-[1.8]">
             {{ valueOfExperienceData.body }}
           </p>
           <a :href="valueOfExperienceData.link" target="_blank" class="block w-fit mt-5 relative z-[2]">
@@ -50,7 +48,6 @@ const experienceData = ref([
     months: 'Jun - Jul',
     ctaWriting: 'Go To Site',
     link: 'https://camaba.netlify.app/',
-    
   },
   {
     type: 'Work Experience',
@@ -60,7 +57,6 @@ const experienceData = ref([
     months: 'Jan - Apr',
     ctaWriting: 'Workplace Linkedin',
     link: 'https://www.linkedin.com/company/pt-mahkota-giri-suprana/',
-    
   },
   {
     type: 'Work Experience',

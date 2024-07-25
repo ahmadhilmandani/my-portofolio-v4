@@ -11,12 +11,12 @@
       <RouterLink to="/experience-achievment" class="text-cust-gray-lighter text-sm">
         Experience & Achievment
       </RouterLink>
-      <RouterLink to="/2" class="text-cust-gray-lighter text-sm">
+      <RouterLink to="/personal-projects" class="text-cust-gray-lighter text-sm">
         Personal Project
       </RouterLink>
-      <RouterLink to="/3" class="text-cust-gray-lighter text-sm">
+      <!-- <RouterLink to="/3" class="text-cust-gray-lighter text-sm">
         Boost My Mood!
-      </RouterLink>
+      </RouterLink> -->
     </div>
   </nav>
 </template>
