@@ -25,13 +25,13 @@
           </p>
 
           <div class="flex gap-5">
-            <a :href="valueOfProjects.link" target="_blank" class="block w-fit mt-5 relative z-[2]">
+            <a :href="valueOfProjects.siteLink" target="_blank" class="block w-fit mt-5 relative z-[2]">
               <ButtonComp styleProp="fill">
                 Go To Site
                 <IconArrowNarrowRight class="w-5" />
               </ButtonComp>
             </a>
-            <a :href="valueOfProjects.link" target="_blank" class="block w-fit mt-5 relative z-[2]">
+            <a :href="valueOfProjects.codeLink" target="_blank" class="block w-fit mt-5 relative z-[2]">
               <ButtonComp styleProp="outline">
                 Go To Code
                 <IconArrowNarrowRight class="w-5" />
@@ -59,19 +59,22 @@ const projectsData = ref([
     title: 'Project Planner',
     body: 'Project Planner is a website to take a note of projects we want to created.',
     logo: ToDoListLogo,
-    link: 'https://simple-project-planner.netlify.app/',
+    siteLink: 'https://simple-project-planner.netlify.app/',
+    codeLink: 'https://github.com/ahmadhilmandani/project-planner-vue-pinia/tree/deploy',
   },
   {
     title: 'To Do List',
     body: 'To Do List is a website make a list of things to do in a daily basis.',
     logo: ProjectPlannerLogo,
-    link: 'https://simple-project-planner.netlify.app/',
+    siteLink: 'https://to-do-list-ahmadhilmandani.netlify.app/',
+    codeLink: 'https://github.com/ahmadhilmandani/Frontendmentor-Hilman/tree/to-do-list-part-2',
   },
   {
     title: 'Calculator App',
     body: 'Calculator App is a website to do math operations online. There also 3 theme of the site.',
     logo: CalculatorAppLogo,
-    link: 'https://simple-project-planner.netlify.app/',
+    siteLink: 'https://ahmadhilmandani.github.io/Frontendmentor-Hilman/calculator/',
+    codeLink: 'https://github.com/ahmadhilmandani/Frontendmentor-Hilman/tree/main/calculator',
   }
 ])
 
