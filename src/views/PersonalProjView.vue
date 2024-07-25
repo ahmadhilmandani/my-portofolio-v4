@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full min-h-screen flex justify-center items-end bg-cust-black pt-14 pb-12 px-16 relative gap-28 text-cust-white">
+    class="w-full min-h-screen flex justify-center items-end bg-cust-black pt-14 pb-12 px-8 xl:px-16 relative gap-28 text-cust-white">
     <img :src="BlueDark" alt="" class="fixed top-0 left-0 z-[1]">
 
     <main class="mt-20">
@@ -11,8 +11,8 @@
         Here's you could see the passion-driven creations that highlight my skills and creativity. These projects reflect my commitment to continuous learning and innovation in web development.
       </p>
 
-      <div class="bg-red- flex flex-wrap gap-10">
-        <div v-for="valueOfProjects in projectsData" class="w-[40%] border border-cust-gray rounded-md p-5 hover:bg-cust-gray/20 backdrop-blur-md transition-all relative z-[2]">
+      <div class="flex flex-wrap gap-10">
+        <div v-for="valueOfProjects in projectsData" class="xl:w-[40%] border border-cust-gray rounded-md p-5 hover:bg-cust-gray/20 backdrop-blur-md transition-all relative z-[2]">
           <div class="w-fit aspect-square p-2 bg-cust-gray-lighter border border-cust-gray rounded-full mb-6">
             <img :src="valueOfProjects.logo" alt="" class="w-9 rounded-full">
           </div>

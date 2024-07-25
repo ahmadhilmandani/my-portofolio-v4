@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full min-h-screen  pt-14 pb-12 px-8 xl:px-16 relative text-cust-white">
+  <div class="w-full min-h-screen pt-14 pb-12 px-8 xl:px-16 relative text-cust-white">
     <img :src="BlueDark" alt="" class="fixed top-0 left-0 z-[1]">
 
     <main class="mt-20">
