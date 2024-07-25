@@ -13,7 +13,7 @@
     </div>
     <div class="flex-1">
       <p class="w-[90%] text-[15px]">
-        9 months as a Frontend Web Developer (intern & part-time) and still going strong! I mostly work with Vue, but
+        More than 6 months as a Frontend Web Developer (intern & part-time) and still going strong! I mostly work with Vue, but
         React is also my buddy!
       </p>
       <div class="w-fit mt-5">

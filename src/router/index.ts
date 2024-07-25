@@ -2,6 +2,7 @@ import { createMemoryHistory, createRouter, RouteRecordRaw } from "vue-router";
 
 import HomeView from "../views/HomeView.vue";
 import MainLayout from "../layouts/MainLayout.vue";
+import ExperienceView from "../views/ExperienceView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -9,16 +10,21 @@ const routes: Array<RouteRecordRaw> = [
     component: MainLayout,
     children: [
       {
-        path: "",
+        path: "/",
         name: "Home",
         component: HomeView,
+      },
+      {
+        path: "experience-achievment",
+        name: "ExperienceAchievment",
+        component: ExperienceView,
       },
     ],
   },
 ];
 
 const router = createRouter({
-  history: createMemoryHistory(),
+  history: createMemoryHistory(import.meta.env.BASE_URL),
   routes,
 });
 
