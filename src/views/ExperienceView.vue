@@ -3,15 +3,15 @@
     <img :src="BlueDark" alt="" class="fixed top-0 left-0 z-[1]">
 
     <main class="mt-20">
-      <h1 class="text-cust-white font-bold text-4xl relative z-[2] leading-relaxed">
+      <h1 v-motion-fade :duration="1000" class="text-cust-white font-bold text-4xl relative z-[2] leading-relaxed">
         Experiences & Achievment
       </h1>
-      <p class="text-white text-xl mt-4 w-[80%] leading-relaxed mb-28">
+      <p v-motion-fade :duration="1000" class="text-white text-xl mt-4 w-[80%] leading-relaxed mb-28">
         Here's you could see the diverse projects I've successfully completed and the milestones I've reached in my career. From innovative web development to impactful software solutions, this section showcases my journey and growth.
       </p>
 
 
-      <div v-for="(valueOfExperienceData, index) in experienceData" :class="index === experienceData.length-1 ? 'pb-0' : 'pb-24'" class="flex gap-20 items-start pl-8 border-l border-cust-gray-lighter">
+      <div v-motion-fade :duration="1000" v-for="(valueOfExperienceData, index) in experienceData" :class="index === experienceData.length-1 ? 'pb-0' : 'pb-24'" class="flex gap-20 items-start pl-8 border-l border-cust-gray-lighter">
         <div class="hidden xl:block text-cust-gray-lighter">
           {{ valueOfExperienceData.year }} <br>
           {{ valueOfExperienceData.months }}
