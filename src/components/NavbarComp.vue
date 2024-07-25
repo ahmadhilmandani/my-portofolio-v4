@@ -27,11 +27,10 @@
 <script lang="ts" setup>
 import { RouterLink } from 'vue-router';
 import LogoDark from '../assets/logo-dark.png';
-import { ref } from 'vue';
 import { IconMenu2 } from '@tabler/icons-vue';
 import { useOpenSidebarStore } from '../stores/openSidebar';
 
-const useOpeSidebar = useOpenSidebarStore()
+const useOpeSidebar = useOpenSidebarStore();
 
 
 </script>

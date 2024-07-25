@@ -16,5 +16,4 @@ import { RouterView } from 'vue-router';
 import NavbarComp from '../components/NavbarComp.vue';
 import SosmedAsideComp from '../components/SosmedAsideComp.vue';
 import SidebarComp from '../components/SidebarComp.vue';
-import FooterComp from '../components/FooterComp.vue';
 </script>
