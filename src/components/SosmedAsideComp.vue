@@ -1,5 +1,5 @@
 <template>
-  <aside class="fixed z-50 right-5 top-0 bottom-0 flex flex-col justify-center items-center gap-10 w-fit">
+  <aside class="fixed z-50 right-5 top-0 bottom-0 hidden xl:flex flex-col justify-center items-center gap-10 w-fit">
     <a href="mailto: ahmadhilmanlagi@gmail.com" class="hover:shadow-xl hover:shadow-cust-blue/20 p-3 rounded-xl transition-all hover:translate-y-[-3px]">
       <IconMail class="w-5" color="white" />
     </a>
