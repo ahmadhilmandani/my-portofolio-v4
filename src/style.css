@@ -9,7 +9,7 @@
   :not(h1, h2, h3, h4, h5, h6) {
     font-family: "Inter", sans-serif;
     line-height: 1.8;
-    @apply font-light text-[15px];
+    @apply font-light text-[15px] sm:max-xl:text-[24px];
   }
 
   h1,
@@ -20,6 +20,18 @@
   h6 {
     font-family: "Plus Jakarta Sans", sans-serif;
     line-height: 1.8;
+  }
+
+  h1 {
+    @apply text-[32px] xl:text-[24px] sm:max-xl:text-[72px];
+  }
+
+  h2 {
+    @apply text-[24px] xl:text-[20px] sm:max-xl:text-[60px];
+  }
+
+  h3 {
+    @apply text-[20px] xl:text-[16px] sm:max-xl:text-[48px];
   }
 
   ::-webkit-scrollbar {
