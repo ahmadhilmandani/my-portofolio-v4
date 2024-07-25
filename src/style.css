@@ -4,7 +4,6 @@
 
 @layer base {
   * {
-
   }
 
   :not(h1, h2, h3, h4, h5, h6) {
@@ -21,5 +20,17 @@
   h6 {
     font-family: "Plus Jakarta Sans", sans-serif;
     line-height: 1.8;
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-cust-gray;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-cust-gray-lighter rounded-md hover:bg-cust-gray-lighter/60;
   }
 }

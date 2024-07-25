@@ -29,6 +29,9 @@ import LogoDark from '../assets/logo-dark.png'
 </script>
 
 <style scoped>
+a{
+  @apply hover:text-cust-white transition-all;
+}
 .router-link-exact-active {
   @apply font-bold text-cust-white;
 }

@@ -16,11 +16,11 @@
         More than 6 months as a Frontend Web Developer (intern & part-time) and still going strong! I mostly work with Vue, but
         React is also my buddy!
       </p>
-      <div class="w-fit mt-5">
+      <RouterLink to="/experience-achievment" class="block w-fit mt-5">
         <ButtonComp styleProp="fill">
           See Detail <IconArrowNarrowRight class="w-5" />
         </ButtonComp>
-      </div>
+      </RouterLink>
     </div>
   </div>
 </template>
