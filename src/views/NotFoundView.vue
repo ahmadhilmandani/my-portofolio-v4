@@ -12,7 +12,7 @@
   </main>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
 import { RouterLink } from 'vue-router';
 import ButtonComp from '../components/ButtonComp.vue';
 </script>
