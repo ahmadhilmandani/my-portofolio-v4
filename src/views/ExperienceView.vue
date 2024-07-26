@@ -15,7 +15,7 @@
 
       <div v-motion-fade :duration="1000" v-for="(valueOfExperienceData, index) in experienceData"
         :class="index === experienceData.length - 1 ? 'pb-0' : 'pb-24'"
-        class="flex gap-20 items-start pl-8 border-l border-cust-gray-lighter">
+        class="flex gap-20 items-start pl-8 border-l border-cust-gray-lighter relative z-[2]">
         <div class="hidden xl:block text-cust-gray-lighter">
           {{ valueOfExperienceData.year }} <br>
           {{ valueOfExperienceData.months }}
@@ -36,7 +36,7 @@
             <div v-for="stack in valueOfExperienceData.stacks" v-html="stack">
             </div>
           </div>
-          <a :href="valueOfExperienceData.link" target="_blank" class="block w-fit mt-5 relative z-[2]">
+          <a :href="valueOfExperienceData.link" target="_blank" class="block w-fit mt-5 relative z-[5]">
             <ButtonComp styleProp="fill">
               {{ valueOfExperienceData.ctaWriting }}
               <IconArrowNarrowRight class="w-5" />
@@ -57,7 +57,7 @@ import BlueDark from '../assets/blue-dark.png';
 const experienceData = ref([
   {
     type: 'Achievment',
-    title: 'Top 20 in "IDCamp 2023 Challenge: Transformasi Teknologi Pendidikan Indonesia Emas 2045',
+    title: 'Top 20 in "IDCamp 2023 Challenge: Transformasi Teknologi Pendidikan Indonesia Emas 2045"',
     body: 'Taking down a challenge held by Indosat Ooredoo Hutchison Digital Camp and Dicoding Indonesia Develop a web called CAMABA that provide a university major recommendation. Build with Vue, Pinia, and Tailwind. Insya Allah, CAMABA is a work in progress. I plan to continuously update its features. ',
     year: '2024',
     months: 'Jun - Jul',
