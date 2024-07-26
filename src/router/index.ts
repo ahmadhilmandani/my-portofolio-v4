@@ -4,6 +4,7 @@ import HomeView from "../views/HomeView.vue";
 import MainLayout from "../layouts/MainLayout.vue";
 import ExperienceView from "../views/ExperienceView.vue";
 import PersonalProjView from "../views/PersonalProjView.vue";
+import NotFoundView from "../views/NotFoundView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -27,6 +28,11 @@ const routes: Array<RouteRecordRaw> = [
       },
     ],
   },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'notFound',
+    component: NotFoundView
+  }
 ];
 
 const router = createRouter({
