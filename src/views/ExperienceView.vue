@@ -50,7 +50,7 @@
 
 <script lang="ts" setup>
 import { ref } from 'vue';
-import { IconArrowNarrowRight, IconBrandTailwind, IconBrandVue } from '@tabler/icons-vue';
+import { IconArrowNarrowRight } from '@tabler/icons-vue';
 import ButtonComp from '../components/ButtonComp.vue';
 import BlueDark from '../assets/blue-dark.png';
 
